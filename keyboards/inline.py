@@ -4,7 +4,7 @@
 
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-from bot import bot
+from bot_instance import bot
 
 # === Функция создания инлайн-кнопок для добавления в корзину ===
 def get_dish_inline_buttons(dish_id):

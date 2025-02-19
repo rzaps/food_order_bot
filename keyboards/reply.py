@@ -2,7 +2,7 @@
 
 import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
-from bot import bot
+from bot_instance import bot
 
 # === Функция создания кнопок главного меню ===
 def get_main_menu_buttons():
